@@ -257,6 +257,18 @@ minikube delete
 ```
 ---
 
+# on ubuntu 
+```
+sudo apt update -y
+sudo apt install python3-pip
+sudo apt install python3-venv -y  
+python3 -m venv flaskenv
+source flaskenv/bin/activate
+pip install flask
+git clone https://github.com/atulkamble/minikube-quotes-app.git
+cd minikube-quotes-app/app
+python app.py
+```
 **Atul Kamble**
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/atuljkamble)
