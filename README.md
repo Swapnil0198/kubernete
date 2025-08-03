@@ -269,6 +269,43 @@ git clone https://github.com/atulkamble/minikube-quotes-app.git
 cd minikube-quotes-app/app
 python app.py
 ```
+
+# on minikube 
+```
+git --version 
+git clone https://github.com/atulkamble/minikube-quotes-app
+cd minikube-quotes
+cd app 
+python3 app.py 
+
+>> localhost:5000 
+
+sudo docker build -t atuljkamble/minikube-quotes-app .
+
+sudo docker images 
+
+docker rmi 58ca53aae955 -f
+
+docker pull atuljkamble/minikube-quotes-app:latest
+
+sudo docker run -d -p 5000:5000 atuljkamble/minikube-quotes-app
+
+sudo docker container ls
+
+sudo docker container stop 987b211c6be3
+
+minikube start
+
+minikube dashboard 
+
+kubectl apply -f /k8s/deployment.yaml
+
+kubectl apply -f /k8s/minikube-service.yaml
+
+kubectl get svc 
+
+http://127.0.0.1:5000/
+```
 **Atul Kamble**
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/atuljkamble)
