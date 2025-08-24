@@ -305,19 +305,6 @@ kubectl apply -f /k8s/minikube-service.yaml
 kubectl get svc 
 
 http://127.0.0.1:5000/
-```
-**Atul Kamble**
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/atuljkamble)
-- 🐙 [GitHub](https://github.com/atulkamble)
-- 🐦 [X](https://x.com/Atul_Kamble)
-- 📷 [Instagram](https://www.instagram.com/atuljkamble)
-- 🌐 [Website](https://www.atulkamble.in)
 
----
 
-## 📜 License
-
-MIT License
-
----
